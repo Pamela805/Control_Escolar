@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Control_Escolar", "Control_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Control_EscolarCore", "..\Control_EscolarCore\Control_EscolarCore.csproj", "{4ABEFBB3-F4C5-594F-61B3-B19DC6C5BFC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Estudiantes_Test", "..\API_Estudiantes_Test\API_Estudiantes_Test.csproj", "{4D766485-B6BB-42F3-84E2-731EF59B3523}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4ABEFBB3-F4C5-594F-61B3-B19DC6C5BFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ABEFBB3-F4C5-594F-61B3-B19DC6C5BFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ABEFBB3-F4C5-594F-61B3-B19DC6C5BFC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D766485-B6BB-42F3-84E2-731EF59B3523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D766485-B6BB-42F3-84E2-731EF59B3523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D766485-B6BB-42F3-84E2-731EF59B3523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D766485-B6BB-42F3-84E2-731EF59B3523}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
