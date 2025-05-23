@@ -57,7 +57,7 @@ namespace Control_EscolarCore.Data
             {
                 if (string.IsNullOrEmpty(ConnectionString))
                 {
-                    throw new InvalidOperationException("La cadena de conexión no está configurada. Asegúrate de establecer PostgreSQLDataAccess.ConnectionString antes de usar la clase.");
+                    throw new InvalidOperationException("La cadena de conexión no está configurada. Asegúrate de establecer PostgresSQLDataAccess.ConnectionString antes de usar la clase.");
                 }
 
                 _connection = new NpgsqlConnection(ConnectionString);
