@@ -18,7 +18,7 @@ namespace Control_EscolarCore.Data
     public class PostgresSQLDataAccess
     {
         //Logger usando el LoggingManager centralizado
-        private static readonly Logger _logger = LoggingManager.GetLogger("Control_Escolar.Data.PosrgreSQLDataAccess");
+        private static readonly Logger _logger = LoggingManager.GetLogger("Control_Escolar.Data.PosrgresSQLDataAccess");
 
         //Cadena de conexion desde App.Config
         //private static readonly String _connectionString = ConfigurationManager.ConnectionStrings["ConexionBD"].ConnectionString;
