@@ -30,19 +30,13 @@ namespace API_Estudiantes_Test
         /// <returns>Lista de estudiantes</returns>
         [HttpGet("list_estudiantes")]  // Ahora tiene una ruta específica
         public IActionResult GetEstudiantes(
-             [FromQuery] bool soloActivos = true,
-             [FromQuery] int tipoFecha = 0,
-             [FromQuery] DateTime? fechaInicio = null,
-             [FromQuery] DateTime? fechaFin = null)
+             [FromQuery] bool soloActivos = true)
         {
             //fromquery-los va obtener parametros de una cadena
             try
             {
                 var estudiantes = _estudiantesController.ObtenerEstudiantes(
-                    soloActivos,
-                    tipoFecha,
-                    fechaInicio,
-                    fechaFin);
+                    soloActivos);
 
                 return Ok(estudiantes);//el ok->devuelve la respuesta 200 que es un ok
             }
