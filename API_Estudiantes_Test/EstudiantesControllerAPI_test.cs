@@ -29,8 +29,10 @@ namespace API_Estudiantes_Test
         /// <param name="fechaFin">Fecha final del rango</param>
         /// <returns>Lista de estudiantes</returns>
         [HttpGet("list_estudiantes")]  // Ahora tiene una ruta específica
-        public IActionResult GetEstudiantes(
-             [FromQuery] bool soloActivos = true)
+        public IActionResult GetEstudiantes([FromQuery] bool soloActivos = true,
+                 [FromQuery] int tipoFecha = 0,
+                 [FromQuery] DateTime? fechaInicio = null,
+                 [FromQuery] DateTime? fechaFin = null)
         {
             //fromquery-los va obtener parametros de una cadena
             try
